@@ -420,6 +420,21 @@ img {
   color: #fff;
   margin: 0 var(--mb-2);
 }
+.footer-content a {
+  color: #4da6ff;
+  text-decoration: none;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Text */
+@media (max-width: 600px) {
+  .footer-content {
+    font-size: 14px;
+  }
+}
 
 @media screen and (min-width: 768px) {
   body {
